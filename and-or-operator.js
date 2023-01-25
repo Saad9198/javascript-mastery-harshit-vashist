@@ -18,6 +18,9 @@ let age = 22;
 if(firstName[0] === "H" && age>18){
     console.log("Name Start With H and Age is Above 18");
 }
+else{
+    console.log("Inside Else")
+}
 
 
 let Example1 = "harshit"

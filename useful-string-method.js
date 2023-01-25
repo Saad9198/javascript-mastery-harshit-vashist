@@ -7,7 +7,7 @@ let firstName = "   Harshit    ";
 
 console.log(firstName.length);
 // trim()
-firstName = firstName.trim(); // Harshit
+firstName = firstName.trim(); // Harshit Do Not Count Spaces 
 console.log(firstName);
 console.log(firstName.length);
 // toUpperCase
@@ -17,5 +17,5 @@ console.log(firstName);
 firstName = firstName.toLowerCase();
 console.log(firstName);
 // slice
-firstName = firstName.slice(7);
+firstName = firstName.slice(0);
 console.log(firstName);

@@ -17,4 +17,5 @@ let String5 = "10";
 let String6 = "17";
 
 let TotalSumString = +String5 + +String5 + +String6;
+console.log(TotalSumString);
 console.log(typeof(TotalSumString));//37

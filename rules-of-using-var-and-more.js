@@ -19,7 +19,7 @@ console.log(value1) // print 2 in console
 var Error = "% & * # @ If they Are use in declartion Of Variable isn't working But we can use only $ And _ in declartion of varibale Example Below";
 console.log(Error);
 
-var first_name = "_(underscore) In between variable name is working"// Result Is working
+var first_name = "In between _(underscore)  variable name is working"// Result Is working
 
 console.log(first_name);
 
