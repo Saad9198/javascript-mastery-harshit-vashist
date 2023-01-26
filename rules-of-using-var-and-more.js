@@ -7,7 +7,8 @@
 // value1 (valid)
 
 var value1 = 2;
-console.log(value1) // print 2 in console
+console.log(value1)
+ // print 2 in console
 
 // var 1value = 2;
 // console.log(1value); (print in Console) Uncaught SyntaxError: Invalid or unexpected token (at 03.js:12:5)
