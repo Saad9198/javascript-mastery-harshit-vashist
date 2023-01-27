@@ -62,7 +62,7 @@ switch(day2){
     default:
         console.log("Inavlid Day");
 }
-var Break ="If we want to execute that only one condition should be true according to the given value so we should use break This is called Break";
+var Break ="If we want to execute that only one condition should be true according to the given values so we should use break This is called Break";
 console.log(Break);
 var BreakDescription2 = "break cannot use in variable declaration we use the break Case in below example"
 console.log(BreakDescription2);

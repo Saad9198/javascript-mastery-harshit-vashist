@@ -3,7 +3,7 @@ let num = 10;
 let total = 0;
 let i = 0;
 
-while(i<= 10000){
+while(i<= 10){
     total = total + i;
     i++;
 //  0     = 0     + 1  = 1
