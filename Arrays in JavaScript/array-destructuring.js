@@ -3,7 +3,7 @@
 const myArray = ["value1","value2","vallue3","value4"];
 let myvar1 = myArray[0];
 let myvar2 = myArray[1];
-// let myNewArray = myArray.slice(2);
+// let myNewArray = myArray.slice(0);
 console.log( "value of myvar1 is", myvar1);
 console.log("value of my var2 is",myvar2);
 // console.log(myNewArray);

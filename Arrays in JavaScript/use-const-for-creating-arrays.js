@@ -17,4 +17,4 @@ console.log(fruits);
 // now the question is this that we should use const for making arrays or let to make arrays 
 // 90% of the developers used the const for making arrays
 
-// if i am using any primitive type i will always use a const not let 
+// if i am using any refrence type i will always use a const not let 

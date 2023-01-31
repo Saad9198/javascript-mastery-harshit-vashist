@@ -15,7 +15,8 @@ var Question2 = "What is Reference Type?";
 
 console.log(Question2);
 
-var Answer2 = "Reference type is object and Array is a object in Javascript"
+var Answer2 = "Reference type is object and Array is a object in Javascript";
+console.log(Answer2);
 
 var ArrayDefinition = "The Definition Of Array is Collection Type."
 
@@ -41,9 +42,11 @@ console.log(mixed);
 
 let name12 = ["saad","raees","amin"];
 name12[1] = "";
+console.log(name12)
 console.log(typeof name12); //object
 
 let obj = {}; // Literal Object
+console.log(obj);
 console.log(typeof obj);
 console.log(Array.isArray(name12)) // True means It Is Array
 console.log(Array.isArray(obj)) // false means it is not Array

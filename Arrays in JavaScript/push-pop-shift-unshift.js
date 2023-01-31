@@ -27,6 +27,6 @@ let shift = "Shift Is Removing the Value in start of the Arrays Example Below";
 console.log(shift);
 let ShiftFruits = fruits.shift();
 console.log(fruits);
-console.log("Shift Fruits is",ShiftFruits)
+console.log("Shift Fruits is",ShiftFruits);
 
 
