@@ -78,9 +78,40 @@
 // }
 
 
-const person = new Map();
-person.set('firstName', 'Saad');
-person.set('gender', 'Male');
-person.set('age', 7);
-person.set(person)
-person.set(person.get(1));
+// const person = new Map();
+// person.set('firstName', 'Saad');
+// person.set('gender', 'Male');
+// person.set('age', 7);
+// console.log(person)
+// console.log(person.get('firstName'));
+// console.log(person.keys('firstName'));
+
+// for (let key of person.keys()){
+//     console.log(key)
+// }
+// for (let [key, value] of person){
+//     // console.log(Array.isArray(key));
+//     console.log(key,value)
+// }
+
+const person1 = {
+    id:1,
+    fistName:"harshit"
+}
+const person2 = {
+    id:2,
+    fistName:"saad"
+}
+
+const extraInfo = new Map();
+
+extraInfo.set(person1, {age:8, gender:"male"});
+extraInfo.set(person2, {age:9, gender:"female"});
+// console.log(userInfo)
+console.log(person1.id)
+console.log(extraInfo.get(person1).gender )
+console.log(extraInfo.get(person2).gender )
+
+
+// const person = new Map([['firtsName', 'harshit'],['age',7]])
+// console.log(person)
