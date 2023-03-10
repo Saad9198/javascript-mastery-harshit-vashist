@@ -28,8 +28,8 @@ else{
 }
 let ThirdName = null;
 
-if (ThirdName) {
-    console.log(ThirdName)
+if (ThirdName === null) {
+    console.log(`ThirdName have value of null`)
 }
 else{
     console.log("ThirdName is  Kinda have null Value");

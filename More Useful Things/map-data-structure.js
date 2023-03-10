@@ -31,15 +31,56 @@
 
 
 // store key value pair
-const person = new Map()
-person.set('firstName','Harshit') // any type key
-person.set('age','7')
-person.set([1,2,3],'onetwothree')
-person.set({1:'one'},'onetwothree')
+// const person = new Map()
+// person.set('firstName','Harshit') // any type key
+// person.set('age','7')
+// person.set([1,2,3],'onetwothree')
+// person.set({1:'one'},'onetwothree')
+// console.log(typeof person)
 
-console.log(person)
-console.log(person.get(1));
+// // console.log(person)
+// // console.log(person.get(1));
 
-for (let key of person.keys()){
-    console.log(key, typeof key)
-}
+// for (let key of person.keys()){
+//     // console.log(key, typeof key)
+// }
+
+
+// let data = new Map();
+
+// data.set(1,{
+//     address: {
+//         country: "India",
+//         postal:123456,
+//     },
+// })
+// data.set(2,{
+//     address:{
+//         country: "US",
+//         postal:123456,
+//     },
+// })
+
+// // console.log(data.get(1));
+// // console.log(data.get(2));
+
+// // console.log(data.delete(2))
+
+// // data.clear()
+// // console.log(data)
+
+// for (const k of data.values()){
+//     console.log(k)
+// }
+
+// for (const [k,v] of data){
+//     console.log(k,v)
+// }
+
+
+const person = new Map();
+person.set('firstName', 'Saad');
+person.set('gender', 'Male');
+person.set('age', 7);
+person.set(person)
+person.set(person.get(1));

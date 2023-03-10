@@ -17,5 +17,5 @@ console.log(firstName);
 firstName = firstName.toLowerCase();
 console.log(firstName);
 // slice
-firstName = firstName.slice(0);
+firstName = firstName.slice(3);
 console.log(firstName);

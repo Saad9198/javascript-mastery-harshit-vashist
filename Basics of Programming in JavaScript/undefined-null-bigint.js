@@ -17,4 +17,4 @@ console.log(myNumber);
 let sameMyNumber =123n;
 console.log(sameMyNumber);
 
-console.log(myNumber+ sameMyNumber);
+console.log(myNumber + sameMyNumber);
