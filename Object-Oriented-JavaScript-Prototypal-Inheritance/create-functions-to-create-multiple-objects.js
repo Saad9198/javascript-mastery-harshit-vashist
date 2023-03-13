@@ -40,3 +40,7 @@ const is18 = user1.is18();
 const about = user1.about();
 console.log(is18);
 console.log(about);
+
+// for better clearifcation see weekness in code file
+
+// Store method in different Objects
